@@ -25,7 +25,7 @@ Rails.application.routes.draw do
  
   #SweZinMyat start 5/7/2019
   get '/unread', to: 'static_pages#unread'
-  post '/update', to: 'static_pages#update'
+  get '/update', to: 'static_pages#update'
   #SweZinMyat end 8/7/2019
 
   #yehtetaung start 24/6/2019
